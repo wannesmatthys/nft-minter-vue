@@ -230,9 +230,9 @@ const onSubmit = async (e) => {
                 <div class="w-full px-3">
                     <label
                         class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                        for="url"
+                        for="asset"
                     >
-                        Asset URL
+                        Asset
                     </label>
                     <input
                         class="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
@@ -241,9 +241,9 @@ const onSubmit = async (e) => {
                                 ? 'border-gray-200 focus:border-gray-500'
                                 : 'border-red-500'
                         "
-                        id="link"
+                        id="asset"
                         type="file"
-                        placeholder="Asset URL"
+                        placeholder="Asset"
                         required
                         @change="fileChange"
                     />
