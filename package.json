@@ -1,0 +1,31 @@
+{
+  "name": "nft-minter-bap",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@alch/alchemy-web3": "^1.4.2",
+    "@types/node": "^17.0.39",
+    "autoprefixer": "^10.4.7",
+    "axios": "^0.27.2",
+    "browserify-zlib": "^0.2.0",
+    "dotenv": "^16.0.1",
+    "events": "^3.3.0",
+    "postcss": "^8.4.14",
+    "process": "^0.11.10",
+    "stream-browserify": "^3.0.0",
+    "tailwindcss": "^3.0.24",
+    "util": "^0.12.4",
+    "vue": "^3.2.25"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9",
+    "vue-tsc": "^0.34.7"
+  }
+}
